@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="parent">
+        <div id="short">
+            <div id="profile">
+                <img src="profile-pic.png" alt="Profile Picture" id="profile-picture">
+            </div>
+            <div class="sec" id="contact">
+                <h4>Contact</h4>
+                <p>
+                    <i class="fa-regular fa-envelope"></i>
+                    unshaider28@gmail.com <br>
+                    <i class="fa-solid fa-phone"></i>
+                    +92 304 2078858 <br>
+                    <i class="fa-solid fa-location-dot"></i>
+                    House # R10 Zohra garden Malir Karachi <br>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <a href="linkedin.com/in/syed-uns-haider-zaidi/">syed-uns-haider-zaidi</a><br>
+                    <i class="fa-brands fa-github"></i>
+                    <a href="github.com/unshaider">unshaider</a><br>
+                </p>
+            </div>
+            <div class="sec" id="skills">
+                <h4>Skills</h4>
+                <p>MS Office</p>
+                <p>HTML, CSS, JavaScript</p>
+                <p>TypeScript, NextJS</p>
+            </div>
+            <div class="sec" id="courses">
+                <h4>Courses</h4>
+                <p><b>Certified Cloud Generative AI Engineering</b><br>
+                    Governor Sindh Initiative for GenAI, Web3, and Metaverse <br>
+                    Continue...
+                </p>
+                <p><b>Frontend Web Development</b><br>
+                    Aptech Metro Star Gate <br>
+                    Completed in 2023
+                </p>
+                <p><b>Certificate in Information Technology</b><br>
+                    Global Computer Institute <br>
+                    Completed in 2022
+                </p>
+            </div>
+            <div class="sec" id="education">
+                <h4>Education</h4>
+                <p><b>Intermediate</b><br>
+                    Completed in 2022
+                </p>
+                <p>
+                    <b>Matriculation</b><br>
+                    Completed in 2020
+                </p>
+            </div>
+        </div>
+
+        <div id="big">
+            <div id="name">
+                <h1>Syed Uns Haider Zaidi</h1>
+            </div>
+            <div class="sec" id="objective">
+                <h3>Objective</h3>
+                <p>
+                    “I am looking for a suitable expands my interpersonal, technical and organizational skills. Also to
+                    gain
+                    experience and knowledge in the specific field and capabilities by being productive that can offer
+                    me
+                    new experiences and growth potential to utilize and for the organization and the society”.
+                </p>
+            </div>
+            <div class="sec" id="experience">
+                <h3>Experience</h3>
+                <h4>Sales Agent</h4>
+                <p><b>Telegraphix World</b><br>
+                    August 2023 – June 2024
+                </p>
+                <p><b>The Designs Mart</b><br>
+                    May 2023 – August 2023
+                </p>
+                <h4>Social Media Marketer</h4>
+                <p><b>Improvisor</b><br>
+                    August 2023 – February 2024
+                </p>
+            </div>
+
+            <div class="dropDown">
+                <label for="sectionToggle"><b>Choose a section to hide/show:</b></label>
+                <select id="sectionToggle">
+                    <option value="profile-picture">Hide/Show Profile Picture</option>
+                    <option value="contact">Hide/Show Contact Details</option>
+                    <option value="skills">Hide/Show Skills</option>
+                    <option value="courses">Hide/Show Courses</option>
+                    <option value="education">Hide/Show Education</option>
+                    <option value="name">Hide/Show Name</option>
+                    <option value="objective">Hide/Show Objective</option>
+                    <option value="experience">Hide/Show Work Experience</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

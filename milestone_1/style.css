@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(253, 253, 152);
+}
+
+#parent {
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+}
+
+#profile {
+    display: flex;
+    justify-content: center;
+}
+
+#profile-picture {
+    border-radius: 50%;
+    width: 11vw;
+    border: 0.5vw solid white;
+}
+
+p,
+i {
+    font-size: 1vw;
+    padding: 4px;
+}
+
+#short {
+    width: 17.5vw;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 20px 0 0 20px;
+}
+
+#big div {
+    margin: 20px;
+}
+
+.sec {
+    text-align: left;
+}
+
+#short h4 {
+    margin-left: 4px;
+    margin-top: 10px;
+    color: white;
+    text-decoration: underline;
+    font-size: 1.2vw;
+}
+
+#big h3 {
+    margin-left: 4px;
+    margin-top: 10px;
+    text-decoration: underline;
+    font-size: 1.4vw;
+}
+
+#big h4 {
+    margin-left: 4px;
+    margin-top: 10px;
+    text-decoration: underline;
+    font-size: 1.3vw;
+}
+
+i,
+#short p,
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#big {
+    width: 41vw;
+    background-color: white;
+    border-radius: 0 20px 20px 0;
+}
+
+#big p {
+    font-size: 1.1vw;
+}
+
+#name {
+    font-size: 1.5vw;
+    text-align: center;
+    background-color: rgb(239, 235, 235);
+    padding: 1.5vw 0;
+    border-radius: 10px;
+    margin: 3vw !important;
+}
+
+.dropDown {
+    margin-left: 1.7vw !important;
+}
+
+label {
+    font-size: 1.3vw;
+}
+
+select {
+    display: block;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5vw;
+    width: 18vw;
+    font-size: 1vw;
+}
+
+select:hover {
+    background-color: #555;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+}
