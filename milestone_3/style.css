@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: rgb(253, 253, 152);
+}
+
+h1 {
+    text-align: center;
+    font-size: 4vw;
+    margin: 2vw 0;
+    text-decoration: underline;
+}
+
+h3 {
+    text-decoration: underline;
+    margin: 1vw 0;
+}
+
+#resumeForm {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    /* background-color: white; */
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.info {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 0.5vw;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* #resume {
+    display: none;
+} */
+
+/* Resume Section */
+#resume {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}

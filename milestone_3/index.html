@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Resume Builder</title>
+</head>
+<body>
+    <h1>Dynamic Resume Builder</h1>
+
+    <!-- Form Section -->
+    <form id="resumeForm">
+        <fieldset>
+            <h3>Personal Information:</h3>
+            <label for="name">Name:</label>
+            <input type="text" id="name" class="info" placeholder="Name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" class="info" placeholder="Email" required><br>
+
+            <label for="phone">Phone #:</label>
+            <input type="number" id="phone" class="info" placeholder="Phone #" required><br>
+        </fieldset>
+
+        <fieldset>
+            <h3>Education:</h3>
+            <label for="degree">Degree:</label>
+            <input type="text" id="degree" class="info" required placeholder="Degree"><br>
+            <label for="institute">Institute Name:</label>
+            <input type="text" id="institute" class="info" required placeholder="Institute Name"><br>
+            <label for="completion">Year of completion:</label>
+            <input type="number" id="completion" class="info" required placeholder="Year of completion"><br>
+        </fieldset>
+
+        <fieldset>
+            <h3>Work Experience</h3>
+            <label for="title">Job Title:</label>
+            <input type="text" id="title" class="info" required placeholder="Job Title"><br>
+            <label for="company">Company Name:</label>
+            <input type="text" id="company" class="info" required placeholder="Company"><br>
+            <label for="year">Year:</label>
+            <input type="number" id="year" class="info" required placeholder="Year"><br>
+        </fieldset>
+
+        <fieldset>
+            <h3>Skills:</h3>
+            <input type="text" id="skill1" class="info" required placeholder="Skill 1"><br>
+            <input type="text" id="skill2" class="info" required placeholder="Skill 2"><br>
+            <input type="text" id="skill3" class="info" required placeholder="Skill 3"><br>
+        </fieldset>
+
+        <button type="submit">Generate Resume</button>
+    </form>
+
+    <!-- Dynamic Resume Display Section -->
+    <div id="resume">
+        <h2>Generated Resume</h2>
+        <h2>Personal Information:
+        </h2>
+        <p id="displayName"></p>
+        <p id="displayEmail"></p>
+        <p id="displayPhone"></p>
+
+        <h3>Education:</h3>
+        <p id="displayDegree"></p>
+        <p id="displayInstitute"></p>
+        <p id="displayCompletion"></p>
+
+        <h3>Work Experience:</h3>
+        <p id="displayTitle"></p>
+        <p id="displayCompany"></p>
+        <p id="displayYear"></p>
+
+        <h3>Skills:</h3>
+        <p id="displaySkill1"></p>
+        <p id="displaySkill2"></p>
+        <p id="displaySkill3"></p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
